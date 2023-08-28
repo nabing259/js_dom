@@ -29,7 +29,7 @@ buttonHex.addEventListener('click', changeColorHex);
 
 function changeColorHex(){
     const color = getRandomHexColor();
-    console.log(color)
+    // console.log(color)
     document.body.style.backgroundColor = color;
     colorCode.innerText = color;
     colorCode.style.color = color;
@@ -38,5 +38,7 @@ function changeColorHex(){
 }
 
 const getRandomHexColor = () =>{
+    console.log(Math.floor(Math.random() * 16777215).toString(16));
     return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+    
 }
