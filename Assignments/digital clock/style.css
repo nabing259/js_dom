@@ -1,0 +1,14 @@
+body{
+    color: aliceblue;
+    text-align: center;
+}
+#display{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'IBM Plex Mono', monospace;
+    border: 2px double #fafafa;
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 250px auto;
+}
